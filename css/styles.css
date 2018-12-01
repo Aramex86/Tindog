@@ -1,122 +1,195 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
-#title{
+
+#title {
     background-color: #ff4c68;
 }
-.row{
-    margin: 0!important;
+
+.row {
+    margin: 0 !important;
 }
-.logo{
+
+.logo {
     font-size: 2.2rem;
     font-weight: bold;
-    font-family: Ubuntu,sans-serif;
+    font-family: Ubuntu, sans-serif;
 }
-h1{
-    font-family: Montserrat,sans-serif;
-    font-size: 3rem;
+
+h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 2.6rem;
     line-height: 1.5;
     font-weight: 900;
     color: #ffff;
     margin-bottom: 50px;
 }
-h2{
-    font-family: "Montserrat",sans-serif ;
+
+h2 {
+    font-family: "Montserrat", sans-serif;
     font-size: 3rem;
     line-height: 1.5;
     font-weight: 900;
 }
-.container-fluid{
+
+h3 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 900;
+
+    line-height: 1.5;
+    font-size: 2rem;
+    width: 67%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.container-fluid {
     padding: 3% 15% 10%;
 }
-.btn{
-    margin:2% 2% 0 1%;
+
+.btn {
+    margin: 2% 2% 0 1%;
 }
-.top-nav li{
+
+.top-nav li {
     font-size: 1.2rem;
     padding: 0 0 0 30px;
-    font-family: Montserrat,sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: lighter;
 }
-.navbar{
+
+.navbar {
     margin-bottom: 100px;
 }
 
-.title-image{
+.title-image {
     transform: rotate(25deg);
     width: 60%;
     position: absolute;
     right: 26%;
 }
-#features-wrap{
+
+#features-wrap {
     padding: 150px 0;
     background-color: #ffffff;
     position: relative;
 }
-.features{
+
+.features {
     text-align: center;
 }
-.features h1{
-    font-family: Montserrat,sans-serif;
+
+.features h1 {
+    font-family: Montserrat, sans-serif;
     font-weight: bold;
     font-size: 1.5rem;
 }
-.features p{
+
+.features p {
     color: #8f8f8f;
     font-size: 1.1rem;
 }
 
-.features i{
+.features i {
     font-size: 3rem;
     color: #ef8172;
 }
-.features i:hover{
+
+.features i:hover {
     color: #ff4c68;
 }
+
 /**************
  <!-- Testimonials -->
  */
-#testimonials{
+#testimonials {
     text-align: center;
     background-color: #ef8172;
     color: #ffff;
 }
-.testimonial-img{
+
+.testimonial-img {
     border-radius: 50%;
     width: 10%;
     margin: 20px;
 }
-em{
-    font-family: Montserrat,sans-serif;
+
+em {
+    font-family: Montserrat, sans-serif;
     font-weight: 400;
 }
-#press{
+
+#press {
     background-color: #ef8172;
     text-align: center;
-    padding:0 0 3% 0;
+    padding: 0 0 3% 0;
 }
-.press-img{
+
+.press-img {
     width: 15%;
     margin: 20px 20px 50px;
 }
-.carousel-item{
+
+.carousel-item {
     padding: 7% 15%;
 }
+
 /*******************
 <!-- Pricing -->
 */
-#pricing{
+#pricing {
     padding: 100px;
     text-align: center;
 }
-.pricing-colon{
+
+.pricing-colon {
     padding: 3% 2%;
 }
 
+/***************
+<!-- Call to Action -->
+*/
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5% 0;
+}
 
+#cta h3 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 1.5;
+    font-size: 3rem;
+    width: 67%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
 
+#cta i {
+    margin-right: 20px;
+}
+#cta button{
+    margin-right: 5px;
+}
 
+/******************
+<!-- Footer -->
+ */
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 5%;
+}
+
+.social-wrap i {
+    margin: 2% 1% 2% 1%;
+}
+
+#footer p {
+    color: #8f8f8f;
+}
 
 
 
