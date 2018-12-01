@@ -21,8 +21,14 @@ h1{
     color: #ffff;
     margin-bottom: 50px;
 }
+h2{
+    font-family: "Montserrat",sans-serif ;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 10%;
 }
 .btn{
     margin:2% 2% 0 1%;
@@ -36,8 +42,108 @@ h1{
 .navbar{
     margin-bottom: 100px;
 }
-.img-wrap img{
+
+.title-image{
     transform: rotate(25deg);
     width: 60%;
-    margin: 5% 0px 0 20%;
+    position: absolute;
+    right: 26%;
 }
+#features-wrap{
+    padding: 150px 0;
+    background-color: #ffffff;
+    position: relative;
+}
+.features{
+    text-align: center;
+}
+.features h1{
+    font-family: Montserrat,sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.features p{
+    color: #8f8f8f;
+    font-size: 1.1rem;
+}
+
+.features i{
+    font-size: 3rem;
+    color: #ef8172;
+}
+.features i:hover{
+    color: #ff4c68;
+}
+/**************
+ <!-- Testimonials -->
+ */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffff;
+}
+.testimonial-img{
+    border-radius: 50%;
+    width: 10%;
+    margin: 20px;
+}
+em{
+    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding:0 0 3% 0;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+/*******************
+<!-- Pricing -->
+*/
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-colon{
+    padding: 3% 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
